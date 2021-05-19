@@ -12,16 +12,26 @@ input{
     font-family: 'Poppins', sans-serif;
 }
 
+button{
+    font-family: 'Poppins', sans-serif;
+}
+
 header{
     display: flex;
-    height: 100vh;;
-    align-items: flex-start;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
     margin: auto;
     background-image: url("images/header-img.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: overlay;
     background-color: #363634;
+}
+
+.navbar , .slider{
+    display: flex;
+    flex-direction: row;
 }
 
 .logo, .nav-links, .search-containers{
@@ -93,4 +103,92 @@ nav{
     cursor: pointer;
     margin-right: 40px;
     z-index: 1;
+}
+
+.slider{
+    justify-content: center;
+    align-items: center;
+}
+
+.slider-box{
+    flex: 2;
+    color: white;
+    padding: 20px;  
+    height: 360px;
+    background: linear-gradient(135deg, rgba(210, 136, 50, 0.5), #ffcb5a38);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 5%;
+}
+
+.slider-box h1{
+    flex: 1;
+    font-size: 50px;
+}
+
+.slider-box p{
+    flex: 1;
+    font-size: 20px;
+}
+
+.slider-box div{
+    flex: 1;
+}
+
+.slider-btn{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.slider-btn button{
+    flex: 1;
+    margin: 0% 5% 0% 0%;
+    height: 6.5vh;
+    font-size: 15px;
+    border-radius: 30px;
+    border: none;
+}
+
+.slider-btn div{
+    flex: 2;
+}
+
+button{
+    margin: 10% 0% 10% 0%;
+}
+
+#more-btn{
+    color: #faab05;
+    transition-delay: 2s ease-in-out;
+    border: 2px solid white;
+}
+
+#more-btn:hover{
+    background: #faab05;
+    color: white;
+    cursor: pointer;
+    border: 2px solid #faab05;
+}
+
+#cart-btn{
+    color: white;
+    background: transparent;
+    border: 2px solid #faab05;
+}
+
+#cart-btn:hover{
+    background: #faab05;
+    color: white;
+    cursor: pointer;
+    border: 2px solid #faab05;
+}
+
+.slider-img{
+    flex: 1;
+}
+
+.slider-img img{
+    width: 100%;
 }
