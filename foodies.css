@@ -108,6 +108,7 @@ nav{
 .slider{
     justify-content: center;
     align-items: center;
+    margin-bottom: 1%;
 }
 
 .slider-box{
@@ -115,11 +116,12 @@ nav{
     color: white;
     padding: 20px;  
     height: 360px;
-    background: linear-gradient(135deg, rgba(210, 136, 50, 0.5), #ffcb5a38);
+    background: linear-gradient(90deg, #fdc243c7, rgba(228, 145, 50, 0.61), #ffcb5a5c, transparent);
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     margin-left: 5%;
+    z-index: 1;
 }
 
 .slider-box h1{
@@ -190,5 +192,7 @@ button{
 }
 
 .slider-img img{
-    width: 100%;
+    width: 130%;
+    margin-top: -70%;
+    margin-left: -40%;
 }
