@@ -29,7 +29,7 @@ header{
     background-color: #363634;
 }
 
-.navbar , .slider{
+.navbar , .introduction{
     display: flex;
     flex-direction: row;
 }
@@ -65,7 +65,7 @@ nav{
 .nav-link{
     text-decoration: none;
     font-size: 18px;
-    color: orange;
+    color: #faab05;
     margin: 0px 70px 0px 0px;
 }
 .nav-link:hover{
@@ -105,13 +105,13 @@ nav{
     z-index: 1;
 }
 
-.slider{
+.introduction{
     justify-content: center;
     align-items: center;
     margin-bottom: 1%;
 }
 
-.slider-box{
+.intro-txt{
     flex: 2;
     color: white;
     padding: 20px;  
@@ -124,27 +124,27 @@ nav{
     z-index: 1;
 }
 
-.slider-box h1{
+.intro-txt h1{
     flex: 1;
     font-size: 50px;
 }
 
-.slider-box p{
+.intro-txt p{
     flex: 1;
     font-size: 20px;
 }
 
-.slider-box div{
+.intro-txt div{
     flex: 1;
 }
 
-.slider-btn{
+.intro-btn{
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
 
-.slider-btn button{
+.intro-btn button{
     flex: 1;
     margin: 0% 5% 0% 0%;
     height: 6.5vh;
@@ -153,7 +153,7 @@ nav{
     border: none;
 }
 
-.slider-btn div{
+.intro-btn div{
     flex: 2;
 }
 
@@ -187,12 +187,12 @@ button{
     border: 2px solid #faab05;
 }
 
-.slider-img{
+.intro-img{
     flex: 1;
 }
 
-.slider-img img{
-    width: 130%;
-    margin-top: -70%;
+.intro-img img{
+    width: 140%;
+    margin-top: -100%;
     margin-left: -40%;
 }
